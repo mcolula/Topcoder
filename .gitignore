@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+
+# Personal testing files for online judges
+test
+ans
+out

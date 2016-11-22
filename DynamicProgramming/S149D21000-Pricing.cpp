@@ -37,15 +37,3 @@ struct Pricing {
   }
 
 };
-
-
-int main() {
-  int x;
-  vector<int> price;
-  while (cin >> x)
-    price.push_back(x);
-  Pricing * p = new Pricing();
-
-  cout << p->maxSales(price) << '\n';
-  return 0;
-}

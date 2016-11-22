@@ -52,5 +52,5 @@ struct 	ShortPalindromes {
   string shortest(string base) {
     s = base; return solution(0, s.size() - 1);
   }
-
+  
 };

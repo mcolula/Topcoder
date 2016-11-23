@@ -27,8 +27,6 @@ struct Deranged {
     return ans;
   }
 
- vi debug;
-
   lld count(int idx, vi nums) {
     if (idx >= data.size())
       return 1;

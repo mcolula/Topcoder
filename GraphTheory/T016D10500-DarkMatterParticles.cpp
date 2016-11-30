@@ -55,11 +55,3 @@ struct DarkMatterParticles {
   }
 
 };
-
-
-int main() {
-  vector<int> x = {0,1,2,3};
-  vector<int> y = {2,3,0,1};
-  cout << (new DarkMatterParticles())->SplitParticles(4, 2, x, y) << endl;
-  return 0;
-}

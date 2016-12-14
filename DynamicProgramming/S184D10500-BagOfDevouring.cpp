@@ -7,7 +7,6 @@ class BagOfDevouring {
 
   private:
 
-  #define full(i) (msk +  1 == 1 << N)
   #define ison(i) (msk & (1 << i))
   #define turn(i) (msk ^ (1 << i))
 
